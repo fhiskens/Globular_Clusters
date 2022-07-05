@@ -1,0 +1,12 @@
+&star_job
+
+    extras_rpar(4) = 3.0 ! Dark photon mass
+    extras_rpar(5) = -15. ! Dark photon mixing paramter
+
+/ ! end of star_job namelist
+
+&controls
+    !initial_mass = 8.
+
+/ ! end of controls namelist
+
