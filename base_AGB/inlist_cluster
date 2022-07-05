@@ -1,0 +1,12 @@
+&star_job
+    extras_rpar(4) = 0.00 ! axion_g10
+    load_saved_model = .true.
+    saved_model_name = 'E-AGB.mod'
+    save_model_filename = 'TP-AGB.mod'
+
+/! end of star_job namelist
+
+&controls
+    star_history_name = 'AGB_history_no_overshoot.data'
+
+/ ! end of controls namelist
