@@ -17,8 +17,9 @@
     photo_interval = 1000
     Reimers_scaling_factor = 0.40
     HB_limit = 0.0001
-    mesh_delta_coeff = 0.57
-    max_years_for_timestep = 35038.80994908423
+    
+    mesh_delta_coeff = <<mesh_delta_coeff>> ! replace with desired value
+    max_years_for_timestep = <<max_timestep>> ! replace with desired value
     
     predictive_superad_thresh(1) = 0.005 ! delta_PM
     predictive_limit_ingestion(1) = 'he4'
