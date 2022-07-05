@@ -9,7 +9,7 @@
 
 !MISC. SETUP
 	  
-      history_columns_file = '/data/gpfs/projects/punim0011/fhiskens/HB_stars/axions/bases/base_RGB/history_columns.list'
+      history_columns_file = ''
       save_model_when_terminate = .true.
       save_model_filename = 'HB.mod'
 	  
@@ -38,7 +38,7 @@
       kappa_file_prefix = 'a09'
       kappa_lowT_prefix = 'lowT_fa05_a09p'
       kappa_CO_prefix = 'a09_co'
-      kappa_config_file = '/data/gpfs/projects/punim0011/fhiskens/HB_stars/axions/bases/base_RGB/kap_config_file.txt'
+      kappa_config_file = ''
 
       !use jina
       set_rates_preference = .true.
