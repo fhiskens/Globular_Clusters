@@ -19,4 +19,4 @@ There are six base directories included:
   
 The run_star_extras.f files include axion energy-loss with the effects of electron degeneracy via the methods of G.G. Raffelt and D.S.P. Dearborn, Bounds on Hadronic Axions From Stellar Evolution, Phys. Rev. D 36 (1987) 2211, and based on the parametrisation in A. Ayala, I. Domínguez, M. Giannotti, A. Mirizzi and O. Straniero, Revisiting the bound on axion-photon coupling from Globular Clusters, Phys. Rev. Lett. 113 (2014) 191302 [1406.6053]. These are included via additional terms to the neutrino energy-loss module. 
 
-They also include some features from the MIST input physics (J. Choi, A. Dotter, C. Conroy, M. Cantiello, B. Paxton and B.D. Johnson, Mesa Isochrones and Stellar Tracks (MIST). I. Solar-scaled Models, Astrophys. J. 823 (2016) 102 [1604.08592]).
+Several features in the run_star_extras file and inlists originate from the MIST input physics (J. Choi, A. Dotter, C. Conroy, M. Cantiello, B. Paxton and B.D. Johnson, Mesa Isochrones and Stellar Tracks (MIST). I. Solar-scaled Models, Astrophys. J. 823 (2016) 102 [1604.08592]).
