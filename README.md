@@ -1,7 +1,7 @@
 # Globular_Clusters
 This directory contains code pertaining to the paper 'Advancing globular cluster constraints on the axion-photon coupling'.
 
-'Base' directories contain run_star_extras files and inlists for each considered scheme for modelling convective boundaries. These were setup to run on a cluster and have two inlist files: `inlist_lowinter`, which contains standard information between all simulations for that scheme, and `inlist_cluster`, which contains input physics specific to each run.
+'Base' directories contain `run_star_extras` files and inlists for each considered scheme for modelling convective boundaries. These were setup to run on a cluster and have two inlist files: `inlist_lowinter`, which contains standard information between all simulations for that scheme, and `inlist_cluster`, which contains input physics specific to each run.
 
 There are six base directories included:
  
