@@ -1,0 +1,24 @@
+&star_job
+    extras_rpar(4) = 0.00 ! axion_g10
+    load_saved_model = .true.
+    saved_model_name = '' ! path_to_saved_model
+    save_model_filename = 'E-AGB.mod'
+    num_special_rate_factors = 1
+    reaction_for_special_factor(:) = 'r_c12_ag_o16'
+    special_rate_factor(:) = 1.00 ! multiplication factor for c12_ag_o16 reaction
+
+/! end of star_job namelist
+
+&controls
+    initial_mass = 0.82 
+    initial_Z = 0.001
+    initial_Y = 0.260
+    Zbase = 0.001
+    photo_interval = 1000
+    Reimers_scaling_factor = 0.40
+    HB_limit = 0.0001
+    mesh_delta_coeff = 0.90
+    max_years_for_timestep = 6237.462314995551
+    conv_premix_avoid_increase = .false. ! .true. to resist increases in central helium
+
+/ ! end of controls namelist
