@@ -12,7 +12,7 @@
 &controls
     initial_mass = 0.82 
     initial_Z = 0.001
-    initial_Y = 0.260
+    initial_Y = 0.254
     Zbase = 0.001
     photo_interval = 1000
     Reimers_scaling_factor = 0.40
